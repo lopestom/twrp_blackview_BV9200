@@ -170,14 +170,10 @@ TW_INCLUDE_CRYPTO := false
 # fscrypt policy FBEv2
 #TW_USE_FSCRYPT_POLICY := 2
 
-#TW_CRYPTO_FS_TYPE := "ext4"
-#TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/bootdevice/by-name/userdata"
+#TW_CRYPTO_FS_TYPE := "f2fs"
+#TW_CRYPTO_REAL_BLKDEV := "/dev/block/by-name/userdata"
 #TW_CRYPTO_MNT_POINT := "/data"
 ##TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered"
-#TW_CRYPTO_FS_OPTIONS := "rw,seclabel,nosuid,nodev,noatime,noauto_da_alloc,inlinecrypt,resgid=1065,errors=panic,data=ordered"
-##TW_CRYPTO_KEY_LOC := "key"
-#TW_CRYPTO_KEY_LOC := /metadata/vold/metadata_encryption/key
-##TW_CRYPTO_KEY_LOC := "footer"
 
 # Additional binaries & libraries needed for recovery
 #TARGET_RECOVERY_DEVICE_MODULES += \
