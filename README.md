@@ -1,37 +1,35 @@
 # TWRP device tree for Blackview BV9200 - Helio G96 - MT6781 - A12
 
-Tester: https://github.com/Osanosa -- [incomplete_cat from 4pda](https://4pda.to/forum/index.php?showuser=7828850)
-
-### Firmware version: GQ3096TF3_KSS7T_Ulefone_20230307_V01 (Non-EU)
-
 This device tree not have encrypt/decrypt mode because boot.img has only 32MB. Otherwise it would need more than 38MB on the partition.
 The tester [Simich07](https://4pda.to/forum/index.php?showuser=1671401) only install `boot-x697-A11-20220928-1932.img` test modified file to know if TWRP can start.
 
+### Firmware version: GQ3096TF3_KSS7T_Ulefone_20230307_V01 (Non-EU)
+g680a-dk040-bv9200-64g1024g-fhdp-mt81-h-bom1-S0-cts-ru-dk_BV9200_S1_221231_user_20230101.zip
+
 ## Status
----------------
 - MT6785 - A11 update to A12
   - Status: booted??
-  - [X] booted
+  - [?] booted
 
    - boot-UPA13-A11-2023MMDD-hhhh.img => Working?? Not working?
-  - [X] Working
+  - [?] Working
 ------------------------------------
 
-Specs: https://www.devicespecifications.com/en/model/0a6056be
+Specs: https://www.gsmarena.com/blackview_bv9200-12055.php
 
-![Ulefone Power Armor 13](https://fdn2.gsmarena.com/vv/pics/ulefone/ulefone-power-armor-13-1.jpg)
+![Blackview BV9200](https://fdn2.gsmarena.com/vv/pics/blackview/blackview-bv9200-1.jpg)
 ===================================================================== 
 
 ### TWRP Pictures
 <details><summary>TWRP Pictures - Click to open</summary>
 <p>
 
-![Menu](https://github.com/lopestom/device_ulefone_Power_Armor_13/releases/download/android-12/Screenshot_2009-12-31-19-03-49.png) ![Mount](https://github.com/lopestom/device_ulefone_Power_Armor_13/releases/download/android-12/Screenshot_2009-12-31-19-03-54.png) ![Advanced](https://github.com/lopestom/device_ulefone_Power_Armor_13/releases/download/android-12/Screenshot_2009-12-31-19-04-11.png) ![Backup](https://github.com/lopestom/device_ulefone_Power_Armor_13/releases/download/android-12/Screenshot_2009-12-31-19-04-24.png)
+![Menu](JJJ)
 </p>
 </details>
 
 ## Big thanks to:
-- [Котфуций 🐾](https://4pda.to/forum/index.php?showuser=2166242) ![Kot](https://4pda.to/s/wZD6OQRn7DV2Hw0RhDB87Ehv5B40ANqkb9z1TB2918gTy4P4.gif) for tests.
+- @Osanosa -- https://github.com/Osanosa -- [incomplete_cat from 4pda](https://4pda.to/forum/index.php?showuser=7828850) for tests.
 - [TeamWin](https://github.com/TeamWin) for TWRP SC.
 * TWRP version 3.7.0_12 *
 
