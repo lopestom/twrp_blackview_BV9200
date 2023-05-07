@@ -1,9 +1,9 @@
 # TWRP device tree for Blackview BV9200 - Helio G96 - MT6781 - A12
 
 This device tree not have encrypt/decrypt mode because boot.img has only 32MB. Otherwise it would need more than 38MB on the partition.
-The tester [Simich07](https://4pda.to/forum/index.php?showuser=1671401) only install `boot-x697-A11-20220928-1932.img` test modified file to know if TWRP can start.
+The tester [incomplete_cat from 4pda](https://4pda.to/forum/index.php?showuser=7828850) only install `boot-BV9200-A12-2023mmdd-ssss.img` test file to know if TWRP can start.
 
-### Firmware version: GQ3096TF3_KSS7T_Ulefone_20230307_V01 (Non-EU)
+### Firmware version: BV9200_S1_221231 - R08_20221231 - BV9200_RU
 g680a-dk040-bv9200-64g1024g-fhdp-mt81-h-bom1-S0-cts-ru-dk_BV9200_S1_221231_user_20230101.zip
 
 ## Status
@@ -29,7 +29,7 @@ Specs: https://www.gsmarena.com/blackview_bv9200-12055.php
 </details>
 
 ## Big thanks to:
-- @Osanosa -- https://github.com/Osanosa -- [incomplete_cat from 4pda](https://4pda.to/forum/index.php?showuser=7828850) for tests.
+- @Osanosa -- https://github.com/Osanosa for tests.
 - [TeamWin](https://github.com/TeamWin) for TWRP SC.
 * TWRP version 3.7.0_12 *
 
