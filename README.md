@@ -7,12 +7,12 @@ The tester [incomplete_cat from 4pda](https://4pda.to/forum/index.php?showuser=7
 g680a-dk040-bv9200-64g1024g-fhdp-mt81-h-bom1-S0-cts-ru-dk_BV9200_S1_221231_user_20230101.zip
 
 ## Status
-- MT6785 - A11 update to A12
+- MT6781 - A12
   - Status: booted??
-  - [?] booted
+  - [X] booted
 
-   - boot-UPA13-A11-2023MMDD-hhhh.img => Working?? Not working?
-  - [?] Working
+   - boot-BV9200-A12-2023MMDD-hhhh.img => Working?? Not working?
+  - [X] Working
 ------------------------------------
 
 Specs: https://www.gsmarena.com/blackview_bv9200-12055.php
@@ -24,7 +24,8 @@ Specs: https://www.gsmarena.com/blackview_bv9200-12055.php
 <details><summary>TWRP Pictures - Click to open</summary>
 <p>
 
-![Menu](JJJ)
+![Menu](https://github.com/lopestom/twrp_blackview_BV9200/releases/download/Blackview_BV9200_RU_R08/IMG_20230507_234548a.jpg)
+![Magisk](https://github.com/lopestom/twrp_blackview_BV9200/releases/download/Blackview_BV9200_RU_R08/IMG_20230507_234947a.jpg)
 </p>
 </details>
 
